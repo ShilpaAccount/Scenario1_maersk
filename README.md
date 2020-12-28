@@ -25,7 +25,7 @@ Sonar has 4 different tasks - Prepare analysis using SonarQube, Run CodeAnalysis
 The 4th Sonar task is responsible for braking the build if there are any test case failures present.
 
 
-3)The deployment of code and artifacts should be automated to Dev environment. 
+3) The deployment of code and artifacts should be automated to Dev environment. 
 
 Answer:
 
@@ -42,7 +42,7 @@ We should enable the After Release option, present in the trigger of the Dev Sta
 ![image](https://user-images.githubusercontent.com/74064643/103216086-26c2aa80-48e3-11eb-84d0-02be07e8cb07.png)
 
 
-4)Upon successful deployment to the Dev environment, deployment should be easily promoted to QA and Prod through automated process.
+4) Upon successful deployment to the Dev environment, deployment should be easily promoted to QA and Prod through automated process.
 
 Answer: 
 
