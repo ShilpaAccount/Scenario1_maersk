@@ -28,6 +28,12 @@ Sonar has 4 different tasks - Prepare analysis using SonarQube, Run CodeAnalysis
 
 The 4th Sonar task is responsible for braking the build if there are any test case failures present.
 
+Also the second way is we can use one more approach, by unchecking the "continue on error" option present in the control option of testcases task. Which in turn fails the build.
+
+![image](https://user-images.githubusercontent.com/74064643/103231521-f6403800-4905-11eb-9f02-f959f3958c99.png)
+
+
+
 
 
 3) The deployment of code and artifacts should be automated to Dev environment. 
