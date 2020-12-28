@@ -1,5 +1,7 @@
 # Senario1_maersk
 
+We can many features in to our build and release pipelines based on the requirment by using Azure DevOps Portal. I tried to answer few of the requirements as per my knowledge. DO let me know if there are any better approaches to finish the given tasks.
+
 1) The build should trigger as soon as anyone in the dev team checks in code to master branch.
 
 Answer :
@@ -68,5 +70,8 @@ So that PROD deployment will be enabled once the assigned approver has approved 
 ![image](https://user-images.githubusercontent.com/74064643/103215734-3b527300-48e2-11eb-841a-19ec9127e486.png)
 
 
+Whenever we make any changes to our pipeline, we should always save the changes to reflect the saved changes.
+
+![image](https://user-images.githubusercontent.com/74064643/103217440-96866480-48e6-11eb-85f2-54107a71eb95.png)
 
 
