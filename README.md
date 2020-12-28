@@ -2,6 +2,7 @@
 
 We can many features in to our build and release pipelines based on the requirment by using Azure DevOps Portal. I tried to answer few of the requirements as per my knowledge. Do let me know if there are any better approaches to finish the given tasks.
 
+
 1) The build should trigger as soon as anyone in the dev team checks in code to master branch.
 
 Answer :
@@ -12,6 +13,7 @@ We can also check the branch for which we want to create the continuous integrat
 ![image](https://user-images.githubusercontent.com/74064643/103216413-00e9d580-48e4-11eb-8229-1309088e78f0.png)
 
 As soon as the dev person commits any changes in the code in the "master" branch, the build gets triggered automatically by genearting the artifacts.
+
 
 
 2) There will be test projects which will create and maintained in the solution along the Web and API. The trigger should build all the 3 projects - Web, API and test.The build should not be successful if any test fails.
@@ -25,6 +27,7 @@ Sonar has 4 different tasks - Prepare analysis using SonarQube, Run CodeAnalysis
 ![image](https://user-images.githubusercontent.com/74064643/103216281-ae101e00-48e3-11eb-9a5f-4343e5777eb5.png)
 
 The 4th Sonar task is responsible for braking the build if there are any test case failures present.
+
 
 
 3) The deployment of code and artifacts should be automated to Dev environment. 
@@ -44,6 +47,8 @@ We should enable the After Release option, present in the trigger of the Dev Sta
 ![image](https://user-images.githubusercontent.com/74064643/103216086-26c2aa80-48e3-11eb-84d0-02be07e8cb07.png)
 
 
+
+
 4) Upon successful deployment to the Dev environment, deployment should be easily promoted to QA and Prod through automated process.
 
 Answer: 
@@ -54,6 +59,8 @@ In the trigger section present in the pre-deployment conditions of QA Stage sele
 ![image](https://user-images.githubusercontent.com/74064643/103215788-5fae4f80-48e2-11eb-9959-57775d797b7b.png)
 
 And similarly can be done to the QA and PROD stage, in the Prod Stage we can add trigger "After Stage" and can add stage QA. So the deployment to the PROD stage will be done once the successful deployment is done to the QA stage.
+
+
 
 
 5) The deployments to QA and Prod should be enabled with Approvals from approvers only.
