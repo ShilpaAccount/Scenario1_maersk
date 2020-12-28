@@ -1,6 +1,6 @@
 # Senario1_maersk
 
-We can many features in to our build and release pipelines based on the requirment by using Azure DevOps Portal. I tried to answer few of the requirements as per my knowledge. DO let me know if there are any better approaches to finish the given tasks.
+We can many features in to our build and release pipelines based on the requirment by using Azure DevOps Portal. I tried to answer few of the requirements as per my knowledge. Do let me know if there are any better approaches to finish the given tasks.
 
 1) The build should trigger as soon as anyone in the dev team checks in code to master branch.
 
