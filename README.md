@@ -4,7 +4,9 @@
 Answer : 
 This can be done by enabling the Continuous Integration Trigger present in the trigger section of the Build Pipeline.
 We can also check the branch for which we want to create the continuous integration trigger. Here it is the "master" branch.
+
 ![image](https://user-images.githubusercontent.com/74064643/103216413-00e9d580-48e4-11eb-8229-1309088e78f0.png)
+
 As soon as the dev person commits any changes in the code in the "master" branch, the build gets triggered automatically by genearting the artifacts.
 
 
